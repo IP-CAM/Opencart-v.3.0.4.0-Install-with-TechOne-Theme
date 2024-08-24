@@ -1,0 +1,104 @@
+[24-Aug-2024 21:49:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Loader_Filesystem' not found in /home/itdoneri/public_html/shop/newshop/system/library/template/twig.php:48
+Stack trace:
+#0 /home/itdoneri/public_html/shop/newshop/system/library/template.php(51): Template\Twig->render('common/header', '<!DOCTYPE html>...', Object(Registry))
+#1 /home/itdoneri/public_html/shop/newshop/system/engine/loader.php(125): Template->render('common/header', '', Object(Registry))
+#2 /home/itdoneri/public_html/shop/newshop/admin/controller/common/header.php(89): Loader->view('common/header', Array)
+#3 /home/itdoneri/public_html/shop/newshop/system/engine/action.php(79): ControllerCommonHeader->index(Array)
+#4 /home/itdoneri/public_html/shop/newshop/system/engine/loader.php(48): Action->execute(Object(Registry), Array)
+#5 /home/itdoneri/public_html/shop/newshop/admin/controller/common/login.php(81): Loader->controller('common/header')
+#6 /home/itdoneri/public_html/shop/newshop/system/engine/action.php(79): ControllerCommonLogin->index()
+#7 /home/itdoneri/public in /home/itdoneri/public_html/shop/newshop/system/library/template/twig.php on line 48
+[24-Aug-2024 21:49:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Loader_Filesystem' not found in /home/itdoneri/public_html/shop/newshop/system/library/template/twig.php:48
+Stack trace:
+#0 /home/itdoneri/public_html/shop/newshop/system/library/template.php(51): Template\Twig->render('common/header', '<!DOCTYPE html>...', Object(Registry))
+#1 /home/itdoneri/public_html/shop/newshop/system/engine/loader.php(125): Template->render('common/header', '', Object(Registry))
+#2 /home/itdoneri/public_html/shop/newshop/admin/controller/common/header.php(89): Loader->view('common/header', Array)
+#3 /home/itdoneri/public_html/shop/newshop/system/engine/action.php(79): ControllerCommonHeader->index(Array)
+#4 /home/itdoneri/public_html/shop/newshop/system/engine/loader.php(48): Action->execute(Object(Registry), Array)
+#5 /home/itdoneri/public_html/shop/newshop/admin/controller/common/login.php(81): Loader->controller('common/header')
+#6 /home/itdoneri/public_html/shop/newshop/system/engine/action.php(79): ControllerCommonLogin->index()
+#7 /home/itdoneri/public in /home/itdoneri/public_html/shop/newshop/system/library/template/twig.php on line 48
+[24-Aug-2024 21:52:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Loader_Filesystem' not found in /home/itdoneri/public_html/shop/newshop/system/library/template/twig.php:48
+Stack trace:
+#0 /home/itdoneri/public_html/shop/newshop/system/library/template.php(51): Template\Twig->render('common/header', '<!DOCTYPE html>...', Object(Registry))
+#1 /home/itdoneri/public_html/shop/newshop/system/engine/loader.php(125): Template->render('common/header', '', Object(Registry))
+#2 /home/itdoneri/public_html/shop/newshop/admin/controller/common/header.php(89): Loader->view('common/header', Array)
+#3 /home/itdoneri/public_html/shop/newshop/system/engine/action.php(79): ControllerCommonHeader->index(Array)
+#4 /home/itdoneri/public_html/shop/newshop/system/engine/loader.php(48): Action->execute(Object(Registry), Array)
+#5 /home/itdoneri/public_html/shop/newshop/admin/controller/common/login.php(81): Loader->controller('common/header')
+#6 /home/itdoneri/public_html/shop/newshop/system/engine/action.php(79): ControllerCommonLogin->index()
+#7 /home/itdoneri/public in /home/itdoneri/public_html/shop/newshop/system/library/template/twig.php on line 48
+[24-Aug-2024 21:57:43 UTC] PHP Fatal error:  Uncaught Error: Class "MySQLi" not found in /home/itdoneri/public_html/shop/newshop/system/library/db/mysqli.php:8
+Stack trace:
+#0 /home/itdoneri/public_html/shop/newshop/system/library/db.php(31): DB\MySQLi->__construct()
+#1 /home/itdoneri/public_html/shop/newshop/system/framework.php(83): DB->__construct()
+#2 /home/itdoneri/public_html/shop/newshop/system/startup.php(104): require_once('/home/itdoneri/...')
+#3 /home/itdoneri/public_html/shop/newshop/admin/index.php(23): start()
+#4 {main}
+  thrown in /home/itdoneri/public_html/shop/newshop/system/library/db/mysqli.php on line 8
+[24-Aug-2024 21:57:57 UTC] PHP Fatal error:  Uncaught Error: Class "Twig_Loader_Filesystem" not found in /home/itdoneri/public_html/shop/newshop/system/library/template/twig.php:48
+Stack trace:
+#0 /home/itdoneri/public_html/shop/newshop/system/library/template.php(51): Template\Twig->render()
+#1 /home/itdoneri/public_html/shop/newshop/system/engine/loader.php(125): Template->render()
+#2 /home/itdoneri/public_html/shop/newshop/admin/controller/common/header.php(89): Loader->view()
+#3 /home/itdoneri/public_html/shop/newshop/system/engine/action.php(79): ControllerCommonHeader->index()
+#4 /home/itdoneri/public_html/shop/newshop/system/engine/loader.php(48): Action->execute()
+#5 /home/itdoneri/public_html/shop/newshop/admin/controller/common/login.php(81): Loader->controller()
+#6 /home/itdoneri/public_html/shop/newshop/system/engine/action.php(79): ControllerCommonLogin->index()
+#7 /home/itdoneri/public_html/shop/newshop/system/engine/router.php(67): Action->execute()
+#8 /home/itdoneri/public_html/shop/newshop/system/engine/router.php(56): Router->execute()
+#9 /home/itdoneri/public_html/shop/newshop/system/framework.php(179): Router->dispatch()
+#10 /home/itdoneri/public_html/shop/newshop/system/startup.php(104): require_once('/home/itdoneri/...')
+#11 /home/itdoneri/public_html/shop/newshop/admin/index.php(23): start()
+#12 {main}
+  thrown in /home/itdoneri/public_html/shop/newshop/system/library/template/twig.php on line 48
+[24-Aug-2024 21:58:12 UTC] PHP Fatal error:  Uncaught Error: Class "Twig_Loader_Filesystem" not found in /home/itdoneri/public_html/shop/newshop/system/library/template/twig.php:48
+Stack trace:
+#0 /home/itdoneri/public_html/shop/newshop/system/library/template.php(51): Template\Twig->render()
+#1 /home/itdoneri/public_html/shop/newshop/system/engine/loader.php(125): Template->render()
+#2 /home/itdoneri/public_html/shop/newshop/admin/controller/common/header.php(89): Loader->view()
+#3 /home/itdoneri/public_html/shop/newshop/system/engine/action.php(79): ControllerCommonHeader->index()
+#4 /home/itdoneri/public_html/shop/newshop/system/engine/loader.php(48): Action->execute()
+#5 /home/itdoneri/public_html/shop/newshop/admin/controller/common/login.php(81): Loader->controller()
+#6 /home/itdoneri/public_html/shop/newshop/system/engine/action.php(79): ControllerCommonLogin->index()
+#7 /home/itdoneri/public_html/shop/newshop/system/engine/router.php(67): Action->execute()
+#8 /home/itdoneri/public_html/shop/newshop/system/engine/router.php(56): Router->execute()
+#9 /home/itdoneri/public_html/shop/newshop/system/framework.php(179): Router->dispatch()
+#10 /home/itdoneri/public_html/shop/newshop/system/startup.php(104): require_once('/home/itdoneri/...')
+#11 /home/itdoneri/public_html/shop/newshop/admin/index.php(23): start()
+#12 {main}
+  thrown in /home/itdoneri/public_html/shop/newshop/system/library/template/twig.php on line 48
+[24-Aug-2024 21:58:14 UTC] PHP Fatal error:  Uncaught Error: Class "Twig_Loader_Filesystem" not found in /home/itdoneri/public_html/shop/newshop/system/library/template/twig.php:48
+Stack trace:
+#0 /home/itdoneri/public_html/shop/newshop/system/library/template.php(51): Template\Twig->render()
+#1 /home/itdoneri/public_html/shop/newshop/system/engine/loader.php(125): Template->render()
+#2 /home/itdoneri/public_html/shop/newshop/admin/controller/common/header.php(89): Loader->view()
+#3 /home/itdoneri/public_html/shop/newshop/system/engine/action.php(79): ControllerCommonHeader->index()
+#4 /home/itdoneri/public_html/shop/newshop/system/engine/loader.php(48): Action->execute()
+#5 /home/itdoneri/public_html/shop/newshop/admin/controller/common/login.php(81): Loader->controller()
+#6 /home/itdoneri/public_html/shop/newshop/system/engine/action.php(79): ControllerCommonLogin->index()
+#7 /home/itdoneri/public_html/shop/newshop/system/engine/router.php(67): Action->execute()
+#8 /home/itdoneri/public_html/shop/newshop/system/engine/router.php(56): Router->execute()
+#9 /home/itdoneri/public_html/shop/newshop/system/framework.php(179): Router->dispatch()
+#10 /home/itdoneri/public_html/shop/newshop/system/startup.php(104): require_once('/home/itdoneri/...')
+#11 /home/itdoneri/public_html/shop/newshop/admin/index.php(23): start()
+#12 {main}
+  thrown in /home/itdoneri/public_html/shop/newshop/system/library/template/twig.php on line 48
+[24-Aug-2024 21:58:55 UTC] PHP Fatal error:  Uncaught Error: Class "MySQLi" not found in /home/itdoneri/public_html/shop/newshop/system/library/db/mysqli.php:8
+Stack trace:
+#0 /home/itdoneri/public_html/shop/newshop/system/library/db.php(31): DB\MySQLi->__construct()
+#1 /home/itdoneri/public_html/shop/newshop/system/framework.php(83): DB->__construct()
+#2 /home/itdoneri/public_html/shop/newshop/system/startup.php(104): require_once('/home/itdoneri/...')
+#3 /home/itdoneri/public_html/shop/newshop/admin/index.php(23): start()
+#4 {main}
+  thrown in /home/itdoneri/public_html/shop/newshop/system/library/db/mysqli.php on line 8
+[24-Aug-2024 22:00:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Loader_Filesystem' not found in /home/itdoneri/public_html/shop/newshop/system/library/template/twig.php:48
+Stack trace:
+#0 /home/itdoneri/public_html/shop/newshop/system/library/template.php(51): Template\Twig->render('common/header', '<!DOCTYPE html>...', Object(Registry))
+#1 /home/itdoneri/public_html/shop/newshop/system/engine/loader.php(125): Template->render('common/header', '', Object(Registry))
+#2 /home/itdoneri/public_html/shop/newshop/admin/controller/common/header.php(89): Loader->view('common/header', Array)
+#3 /home/itdoneri/public_html/shop/newshop/system/engine/action.php(79): ControllerCommonHeader->index(Array)
+#4 /home/itdoneri/public_html/shop/newshop/system/engine/loader.php(48): Action->execute(Object(Registry), Array)
+#5 /home/itdoneri/public_html/shop/newshop/admin/controller/common/login.php(81): Loader->controller('common/header')
+#6 /home/itdoneri/public_html/shop/newshop/system/engine/action.php(79): ControllerCommonLogin->index()
+#7 /home/itdoneri/public in /home/itdoneri/public_html/shop/newshop/system/library/template/twig.php on line 48

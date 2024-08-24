@@ -1,0 +1,283 @@
+body {
+	background: #252525;
+	color: #666;
+}
+
+a {
+	color: #aaa;
+}
+
+#top-bar .background {
+	border-color: #333;
+}
+
+#top-bar .header-links li:before {
+	background: rgba(221,221,221,.3);
+}
+
+#top-bar .dropdown:before {
+	background: rgba(221,221,221,.3);
+}
+
+#top .search_form input {
+	background: none;
+	border-color: #444;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	height: 44px;
+}
+
+#top .search_form .search-cat {
+	border-color: #444;
+}
+
+#top .search_form .search-cat:before {
+	background: #444;
+}
+
+.search_form .button-search, .search_form .button-search2 {
+	background: none !important;
+	border: 1px solid #444;
+	border-left: none;
+	color: #aaa;
+}
+
+.hotline .content .phone {
+	color: #fff;
+}
+
+#top #cart_block .cart-heading:before {
+	background: rgba(221,221,221,.3);
+}
+
+#top #cart_block .cart-heading .cart-icon {
+	color: #fff;
+}
+
+#top #cart_block .cart-heading .text2 .amount {
+	color: #fff;
+}
+
+#top #cart_block .cart-heading:after {
+	color: #fff;
+}
+
+.menu-background,
+.megamenu-wrapper,
+.fixed-header,
+.megamenuToogle-wrapper {
+	background: #111;
+}
+
+ul.megamenu > li a {
+	color: #555;
+}
+
+ul.megamenu > li a:hover {
+	opacity: 0.8;
+}
+
+ul.megamenu > li > a,
+.megamenuToogle-wrapper .container {
+	color: #aaa;
+}
+
+.megamenuToogle-wrapper .container > div span {
+	background: #aaa;
+}
+
+.tp-leftarrow.default,
+.tp-rightarrow.default {
+	color: #fff !important;
+}
+
+.box .overflow-box-heading {
+	background: #191919;
+}
+
+.box > .prev:hover span, 
+.box > .next:hover span,
+.box .prev-products:hover, 
+.box .next-products:hover {
+	color: #fff !important;
+}
+
+.blog-list-default .blog-content {
+	border: none;
+	background: #fff;
+}
+
+.advanced-grid .product-grid {
+	background: none;
+}
+
+.product-grid .product {
+	border-color: #333;
+}
+
+.product-grid .product .price {
+	color: #fff;
+}
+
+.product-grid .product .name a {
+	color: #aaa;
+}
+
+.product-grid .product-hover .only-hover {
+	background: #252525;
+	border-color: #333;
+}
+
+.product-grid .product .only-hover ul li a {
+	background: #252525;
+	border-color: #333;
+}
+
+.carousel-brands {
+	background: #1e1e1e;
+}
+
+.advanced-grid-products .product .right .price {
+	color: #fff;
+}
+
+.home-products h4 {
+	color: #fff;
+}
+
+.footer .background, .standard-body .footer .background,
+.copyright .background, .standard-body .copyright .background {
+	background: #1f1f1f;
+}
+
+.breadcrumb .container ul li a {
+	color: #aaa;
+}
+
+.col-sm-3 .box .box-heading, .col-sm-4 .box .box-heading, .col-md-3 .box .box-heading, .col-md-4 .box .box-heading {
+	color: #fff;
+	border-color: #333;
+}
+
+#main .mfilter-box .box-heading {
+	color: #fff !important;
+}
+
+.col-sm-3 .products .row > div .product, .col-sm-4 .products .row > div .product, .col-md-3 .products .row > div .product, .col-md-4 .products .row > div .product {
+	border-color: #333;
+}
+
+div.pagination-results ul li {
+	border-color: #333;
+	background: #252525;
+}
+
+.product-filter {
+	background: #1f1f1f;
+}
+
+h1#title-page {
+	color: #fff;
+}
+
+#main .mfilter-heading {
+	color: #fff;
+	border-color: #333;
+}
+
+.product-list > div {
+	border-color: #333;
+}
+
+.product-list .actions > div:before {
+	background: #333;
+}
+
+.product-list .name-desc .name a {
+	color: #aaa;
+}
+
+.product-list .price {
+	color: #fff;
+}
+
+.product-list .image img {
+	display: block;
+	margin: 0px auto;
+}
+
+.product-info .product-center .price .price-new {
+	color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	color: #fff;
+}
+
+.product-info .description, .product-info .product-center .price, .product-info .options, .product-info .cart {
+	border-color: #333;
+}
+
+.center-column .tab-content {
+	background: #252525;
+	border-color: #333;
+}
+
+table.attribute, table.list, .wishlist-product table, .wishlist-info table, .compare-info, .cart-info table, .checkout-product table, .table,
+table.attribute td, table.list td, .wishlist-product table td, .wishlist-info table td, .compare-info td, .cart-info table td, .checkout-product table td, .table td {
+	border-color: #333;
+}
+
+table.attribute tr, table.list tr, .wishlist-product table tr, .wishlist-info table tr, .compare-info tr, .cart-info table tr, .checkout-product table tr, .table {
+	background: #252525 !important;
+}
+
+.review-list .text {
+	background: #252525;
+	border-color: #333;
+}
+
+#main .post .comments-list .text {
+	border-color: #333;
+}
+
+.review-list .text:after,
+#main .post .comments-list .text:after {
+	border-bottom-color: #252525;
+}
+
+.review-list .text:before,
+#main .post .comments-list .text:before {
+	border-bottom-color: #333;
+}
+
+.cart-total table tr td:last-child {
+	color: #fff;
+}
+
+.center-column .panel-heading {
+	border-color: #333;
+}
+
+.center-column .panel-heading h4 {
+	color: #aaa;
+}
+
+#main .mfilter-slider-slider, 
+#main #mfilter-price-slider {
+	background: #333 !important;
+}
+
+ul.blog-list-default li:before {
+	background: #333;
+}
+
+#main .post .meta,
+#main .post .post-content {
+	border-color: #333;
+}
+
+legend {
+	color: #fff;
+}
