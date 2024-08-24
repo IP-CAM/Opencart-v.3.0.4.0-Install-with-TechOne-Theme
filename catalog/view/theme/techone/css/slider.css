@@ -1,0 +1,89 @@
+/* Revolution slider */
+
+.tp-leftarrow.default {
+	width: 39px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: none;
+	background-color: rgba(0, 0, 0, .2);
+	color: #333;
+	text-indent: -1000px;
+	overflow: hidden;
+	transition: all 0.2s ease-in;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+}
+
+	.tp-leftarrow.default:hover {
+		background: #e5534c;
+	}
+	
+	.tp-leftarrow.default:before {
+		font-family: 'FontAwesome';
+		font-size: 24px;
+		line-height: 45px;
+		content: "\f104";
+		position: absolute;
+		display: block;
+		top: 0;
+		left: 0;
+		right: 0;
+		text-align: center;
+		z-index: 999;
+		text-indent: 0;
+		transition: all 0.2s ease-in;
+		-webkit-transition: all 0.2s ease-in;
+		-moz-transition: all 0.2s ease-in;
+	}
+	
+		.tp-leftarrow.default:hover:before {
+			color: #fff;
+		}
+		
+.tp-rightarrow.default {
+	width: 39px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: none;
+	background-color: rgba(0, 0, 0, .2);
+	color: #333;
+	text-indent: -1000px;
+	overflow: hidden;
+	transition: all 0.2s ease-in;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+}
+
+	.tp-rightarrow.default:hover {
+		background: #e5534c;
+	}
+	
+	.tp-rightarrow.default:before {
+		font-family: 'FontAwesome';
+		font-size: 24px;
+		line-height: 45px;
+		content: "\f105";
+		position: absolute;
+		display: block;
+		top: 0;
+		left: 0;
+		right: 0;
+		text-align: center;
+		z-index: 999;
+		text-indent: 0;
+		transition: all 0.2s ease-in;
+		-webkit-transition: all 0.2s ease-in;
+		-moz-transition: all 0.2s ease-in;
+	}
+	
+		.tp-rightarrow.default:hover:before {
+			color: #fff;
+		}

@@ -1,0 +1,464 @@
+@media (max-width: 991px) {
+	.responsive .standard-body .full-width .container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	.responsive .standard-body .fixed .container {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	.responsive .main-fixed .container {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+		.responsive .standard-body .container .container,
+		.responsive .main-fixed .container .container {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		
+	/* Block */
+	
+	.responsive .col-sm-3 .box-with-products,
+	.responsive .col-sm-4 .box-with-products,
+	.responsive .col-md-3 .box-with-products,
+	.responsive .col-md-4 .box-with-products {
+		display: none;
+	}
+		
+	.responsive .inner-page .pattern > div > .row:first-child > div {
+		margin-top: 0px !important;
+	}
+	
+		.responsive .inner-page .pattern > div > .row:first-child > div {
+			float: none;
+		}
+		
+		.responsive .inner-page .pattern > div > .row:first-child > div:first-child {
+			margin-top: -5px !important;
+		}
+}
+
+@media (max-width: 1270px) {
+	.responsive .camera_wrap {
+		height: auto !important;
+	}
+}
+
+@media (max-width: 991px) {
+	.responsive #main .dropdown-menu {
+		display: none !important;
+		visibility: visible !important;
+		opacity: 1 !important;
+		-webkit-transition: none !important;
+		-moz-transition: none !important;
+		-o-transition: none !important;
+		-ms-transition: none !important;
+		transition: none !important;
+	}
+	
+		.responsive #main .open > .dropdown-menu {
+			display: block !important;
+		}
+}
+
+@media (max-width: 500px) {
+     .responsive .product-grid > .row > div {
+          width: 100%;
+          float: none;
+     }
+     
+     .responsive .box-product .carousel .item .product-grid .row:first-child > div {
+          width: 50%;
+          float: left;
+     }
+}
+
+@media (max-width: 767px) {
+
+	/* @group Row */
+	
+	.responsive .row {
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+	
+		.responsive .row > div {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
+	.responsive .standard-body .full-width .container {
+		padding: 0px 20px;
+	}
+	
+	.responsive .standard-body .fixed {
+		padding: 0px;
+	}
+	
+		.responsive .standard-body .fixed .container {
+			padding: 0px 20px;
+		}
+	
+	.responsive .fixed-body {
+		padding: 0px;
+	}
+	
+		.responsive .main-fixed .container {
+			padding: 0px 20px;
+		}
+		
+		.responsive .standard-body .container .container {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		
+	/* @end */
+		
+	/* @group Mobile Disabled */
+	
+	.responsive .mobile-disabled {
+		display: none !important;
+	}
+	
+	/* @end */
+	
+	/* @group Top Bar
+	------------------*/
+	
+	.responsive #top-bar {
+	}
+	
+		.responsive #top-bar .header-links {
+			float: none;
+			text-align: center;
+			clear: both;
+		}
+		
+			.responsive #top-bar .header-links li {
+				display: inline-block;
+				float: none;
+			}
+			
+	/* @end */
+	
+	/* @group Top */
+
+	
+	/* @end */
+	
+	/* @group Breadcrumb
+	------------------*/
+	
+	.responsive .breadcrumb .container {
+		padding-top: 0px !important;
+	}
+	
+	/* @end */
+
+	/* @group Main Content
+	------------------*/
+	
+	.responsive .main-content .pattern > .container,
+	.responsive .standard-body .main-content .pattern > .container {
+		padding-bottom: 25px;
+	}
+			
+		/* @group Center column */
+		
+		.responsive .center-column {
+			padding-top: 20px;
+		}
+		
+		/* @end */
+	
+		/* @group Banner */
+		
+		.responsive .banners > div {
+			padding-top: 20px;
+		}
+		
+		/* @end */
+		
+		/* @group Block */
+		
+		.responsive .box {
+		}
+			
+		     /* @group Carousel mobile products */
+			
+			.responsive .box-product .carousel .item .product-grid .row > div {
+				display: none !important;
+			}
+			
+				.responsive .box-product .carousel .item .product-grid .row:first-child > div:first-child,
+				.responsive .box-product .carousel .item .product-grid .row:first-child > div:nth-child(2) {
+					display: block !important;
+				}
+				
+			/* @end */
+			
+		/* @end */
+		
+		/* @group Product */
+		
+		.responsive .product-grid,
+		.responsive .center-column .product-grid {
+		}
+			
+			.responsive .product-grid .row > div.col-xs-6:nth-child(odd) {
+				clear: both;
+			}
+          
+          /* @end */
+					
+		/* @group Product list */
+		
+		.responsive .product-list > div {
+		}
+		
+			.responsive .product-list .actions > div {
+				padding: 15px 0px 0px 0px;
+				border-top: 1px solid #e6e6e6;
+				margin: 20px 0px 0px 0px;
+			}
+			
+				.responsive .product-list .actions > div:before {
+					display: none;
+				}
+				
+		/* @end */
+					
+		/* @group Category page */
+		
+		.responsive .category-info {
+		}
+		
+		.responsive .category-list-text-only {
+			margin-bottom: 15px;
+		}
+		
+			.responsive .category-list .row > div {
+				margin-bottom: 16px;
+			}
+			
+				.responsive .category-list-text-only .row > div {
+					margin-bottom: 6px;
+				}
+		
+		.responsive .product-filter {
+			margin: 0px 0px 20px 0px;
+		}
+		
+			.responsive .product-filter .options,
+			.responsive .product-filter .list-options,
+			.responsive .product-filter .list-options .limit {
+				float: none;
+				margin: 0px;
+				clear: both;
+			}
+				
+				.responsive .product-filter .list-options .sort {
+					padding-top: 10px;
+				}
+				
+				.responsive .product-filter .list-options .limit {
+					padding-left: 0px;
+				}
+				
+		/* @end */
+			
+		/* @group Product page */
+		
+			/* Thumbnails */
+
+			.responsive .product-info .thumbnails li,
+			.responsive .product-info .thumbnails-left li {
+				width: 25%;
+				float: left;
+			}
+			
+		/* @end */
+		
+		/* @group Pagination */
+		
+		.responsive div.pagination-results .text-left,
+		.responsive div.pagination-results .text-right { 
+			text-align:center;
+		}
+		
+		/* @end */
+		
+		/* @group Content */
+		
+		.responsive .login-content .left,
+		.responsive .login-content .right,
+		.responsive .main-content .content .left,
+		.responsive .main-content .content .right,
+		.responsive .checkout-content .left,
+		.responsive .checkout-content .right { 
+			float: none;
+			width: 100%; 
+		}
+		
+		/* @end */
+		
+	/* @end */
+
+	/* @group Footer
+	-----------------*/
+	
+	.responsive .footer .pattern {
+		padding: 0px 0px 36px 0px;
+	}
+		
+		.responsive .footer h4, 
+		.responsive .footer .strip-line {
+		}
+		
+	/* @end */
+	
+	/* @group Copyright
+	------------------*/
+	
+	.responsive .copyright {
+		text-align: center;
+	}
+	
+		.responsive .copyright ul {
+			padding: 5px 0px 25px 0px;
+			float: none;
+		}
+		
+		.responsive .copyright ul li {
+			margin-left: 7px;
+			margin-right: 7px;
+		}
+		
+	/* @end */
+		
+	/* @group Cloud zoom */
+	
+	.responsive .zoomContainer {
+		display: none !important;
+	}
+	
+	/* @end */
+	
+	/* @group Banners */
+	
+	.responsive .banner {
+		margin-top: 20px;
+	}
+	
+	/* @end */
+	
+	/* @group Quickview */
+	
+	.responsive #quickview .thumbnails {
+		margin-bottom: 0px;
+	}
+	
+	/* @end */
+	
+	/* @group Modal */
+	
+	.responsive .modal-footer {
+		text-align: center;
+	}
+	
+		.responsive .button-continue-shopping {
+			display: inline-block;
+			float: none;
+		}
+		
+		.responsive .button-checkout {
+			display: inline-block;
+			float: none;
+		}
+		
+	/* @end */
+}
+
+@media (max-width: 480px) {
+	.responsive #top-bar {
+		text-align: center;
+	}
+	
+	.responsive #top-bar .overflow-top-block > .header-socilas {
+		float: none;
+	}
+	
+		.responsive .header-socilas .social {
+			float: none;
+		}
+	
+	.responsive #top-bar form {
+		float: none;
+		display: inline-block;
+	}
+	
+		.responsive #top-bar .dropdown {
+			float: none;
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+		
+	.responsive #top .container {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.responsive #top .logo {
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	
+	.responsive #top .search_form {
+		float: left;
+	}
+	
+	.responsive .product-grid .product .only-hover .button {
+		width: 41px;
+		text-indent: -1000px;
+		position: relative;
+	}
+	
+		.responsive .product-grid .product .only-hover .button span {
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			text-indent: 0;
+			right: 0;
+			text-align: center;
+			line-height: 37px;
+			font-size: 17px;
+		}
+}
+
+@media (max-width: 991px) {
+	.responsive #top .search_form {
+		float: none;
+		margin: 5px auto;
+	}
+	
+	.responsive #top .header-control {
+		float: none;
+		margin: 0px auto;
+		text-align: center;
+	}
+	
+	.responsive .hotline {
+		float: none;
+	}
+	
+	.responsive #top #cart_block {
+		float: none;
+	}
+}

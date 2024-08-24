@@ -47,7 +47,7 @@ class Template {
 	 *
 	 * @return	string
  	*/	
-	public function render($template, $cache = false) {
-		return $this->adaptor->render($template, $cache);
+	public function render($template, $cache = false, $registry = '') {
+		return $this->adaptor->render($template, $cache, $registry);
 	}
 }

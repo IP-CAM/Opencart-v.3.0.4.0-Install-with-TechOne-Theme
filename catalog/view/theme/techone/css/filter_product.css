@@ -1,0 +1,103 @@
+.filter-product {
+	
+}
+
+	.filter-product .carousel {
+		overflow: hidden;
+	}
+	
+		.filter-product .carousel:hover {
+			overflow: visible;
+		}
+
+	.filter-product .filter-tabs {
+		border-bottom: 1px solid #e6e6e6;
+		list-style: none;
+		padding: 0px 65px 0px 0px;
+		margin: 20px 0px 20px 0px;
+	}
+		.filter-product .filter-tabs ul {
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+		}
+	
+		.filter-product .filter-tabs ul > li {
+		  float: left;
+		  margin-bottom: -1px;
+		}
+		
+			.filter-product .filter-tabs ul > li > a {
+			  margin: 10px 2px 0px 0px;
+			  border: 1px solid #e6e6e6;
+			  background: #f3f4f5;
+			  padding: 10px 20px 10px 20px;
+			  font-size: 14px;
+			  position: relative;
+			  display: block;
+			}
+			
+			.filter-product .filter-tabs ul > li > a:hover {
+			  border-color: #eeeeee #eeeeee #e6e6e6;
+			}
+			
+			.filter-product .filter-tabs ul > li.active > a,
+			.filter-product .filter-tabs ul > li.active > a:hover,
+			.filter-product .filter-tabs ul > li.active > a:focus {
+			  color: #555555;
+			  cursor: default;
+			  background-color: #ffffff;
+			  border: 1px solid #dddddd;
+			  border-bottom-color: transparent;
+			}
+
+.tab-content {
+	position: relative;
+}
+				
+	.tab-content .prev-button, 
+	.tab-content .next-button {
+		margin: 0px 0px 0px 5px;
+		width: 28px;
+		height: 28px;
+		border-radius:         2px;
+		-moz-border-radius:    2px;
+		-webkit-border-radius: 2px;
+		background: #e5534c; /* Old browsers */
+		position: absolute;
+		top: -67px;		
+		right: 0;
+	}
+		
+		.tab-content .prev-button {
+			right: 33px;
+		}
+	
+		.tab-content .prev-button span, 
+		.tab-content .next-button span {
+			display: block;
+			width: 8px;
+			height: 14px;
+			margin: 8px auto 0px auto;
+			background: url(../img/left.png) no-repeat;
+		}
+		
+			.tab-content .next-button span {
+				background: url(../img/right.png) no-repeat;
+			}
+			
+@media (max-width: 767px) {
+	.responsive .filter-product .filter-tabs {
+		margin: 10px 0px 20px 0px;
+	}
+	
+	.responsive .filter-product .filter-tabs ul > li > a {
+		padding: 10px 7px;
+		font-size: 12px;
+	}
+	
+	.responsive .tab-content .prev-button, 
+	.responsive .tab-content .next-button {
+		top: -64px;
+	}
+}
